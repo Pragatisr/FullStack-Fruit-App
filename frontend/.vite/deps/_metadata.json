@@ -1,0 +1,79 @@
+{
+  "hash": "76569107",
+  "configHash": "dabcc41d",
+  "lockfileHash": "e9fb1fe8",
+  "browserHash": "ff42e43c",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "22f2af7b",
+      "needsInterop": true
+    },
+    "react-bootstrap/Button": {
+      "src": "../../node_modules/react-bootstrap/esm/Button.js",
+      "file": "react-bootstrap_Button.js",
+      "fileHash": "695d649c",
+      "needsInterop": false
+    },
+    "react-bootstrap/Card": {
+      "src": "../../node_modules/react-bootstrap/esm/Card.js",
+      "file": "react-bootstrap_Card.js",
+      "fileHash": "c67b4a41",
+      "needsInterop": false
+    },
+    "react-bootstrap/Container": {
+      "src": "../../node_modules/react-bootstrap/esm/Container.js",
+      "file": "react-bootstrap_Container.js",
+      "fileHash": "f8c2bc47",
+      "needsInterop": false
+    },
+    "react-bootstrap/Nav": {
+      "src": "../../node_modules/react-bootstrap/esm/Nav.js",
+      "file": "react-bootstrap_Nav.js",
+      "fileHash": "e56eecd3",
+      "needsInterop": false
+    },
+    "react-bootstrap/Navbar": {
+      "src": "../../node_modules/react-bootstrap/esm/Navbar.js",
+      "file": "react-bootstrap_Navbar.js",
+      "fileHash": "36216c1c",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "5007cf58",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "3878b0ed",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-PE533TSG": {
+      "file": "chunk-PE533TSG.js"
+    },
+    "chunk-DXNWQNV5": {
+      "file": "chunk-DXNWQNV5.js"
+    },
+    "chunk-CS32FTXR": {
+      "file": "chunk-CS32FTXR.js"
+    },
+    "chunk-B6GEQU3P": {
+      "file": "chunk-B6GEQU3P.js"
+    },
+    "chunk-UVXYMMAI": {
+      "file": "chunk-UVXYMMAI.js"
+    },
+    "chunk-4J6BLW67": {
+      "file": "chunk-4J6BLW67.js"
+    },
+    "chunk-WYQRYOQT": {
+      "file": "chunk-WYQRYOQT.js"
+    }
+  }
+}
