@@ -1,5 +1,6 @@
 const jwt = require("jsonwebtoken");
-
+const dotenv = require("dotenv")
+dotenv.config()
 const authMiddleware = (req, res, next) => {
   try {
     const authHeader = req.headers["authorization"];
@@ -10,7 +11,7 @@ const authMiddleware = (req, res, next) => {
     if (!token) {
       return res.status(401).json({ message: "Invalid token format" });
     }
-    const decoded = jwt.verify(token, "mysecretkey");
+    const decoded = jwt.verify(token, process.env.SECRET_KEY);
     req.user = decoded;
     next(); 
   } catch (err) {

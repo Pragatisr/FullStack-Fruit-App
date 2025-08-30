@@ -1,6 +1,8 @@
 const express = require('express')
 const bcrypt = require("bcrypt");
 const cors = require('cors')
+const dotenv = require("dotenv")
+dotenv.config()
 const app = express()
 const { USER } = require('../model/user.schema')
 const jwt = require('jsonwebtoken')
@@ -36,7 +38,7 @@ const login = async (req, res) => {
 
     const payload = { id: user._id, email: user.email };
 
-    const token = jwt.sign(payload, "mysecretkey", { expiresIn: "1h" });
+    const token = jwt.sign(payload, process.env.SECRET_KEY, { expiresIn: "1h" });
 
     res.json({ success: true, token,status:200 });
   } catch (err) {
