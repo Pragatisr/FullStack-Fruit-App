@@ -14,7 +14,7 @@ const Signup = () => {
 
         try {
 
-            const response = await axios.post('http://localhost:3001/signup', userDetails)
+            const response = await axios.post('https://fruit-app-ii92.onrender.com/signup', userDetails)
             console.log(response?.data, 'resp');
             if (response?.status === 200)
                 toast.success(response?.statusText)

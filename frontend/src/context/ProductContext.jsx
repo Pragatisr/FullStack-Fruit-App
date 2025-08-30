@@ -14,7 +14,7 @@ export const ProductProvider = ({ children }) => {
     didRun.current = true;
     const fetchProducts = async () => {
       try {
-        const res = await axios.get("http://localhost:3001/products",{
+        const res = await axios.get("https://fruit-app-ii92.onrender.com/products",{
         headers: {
           Authorization: `Bearer ${token}`,
         },

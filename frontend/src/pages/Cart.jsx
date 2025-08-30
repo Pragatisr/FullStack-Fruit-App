@@ -15,7 +15,7 @@ const Cart = () => {
     const fetchCartItem = async () => {
       const token = localStorage.getItem("token");
       try {
-        const res = await axios.get("http://localhost:3001/cart/", {
+        const res = await axios.get("https://fruit-app-ii92.onrender.com/cart/", {
           headers: {
             Authorization: `Bearer ${token}`,
           },

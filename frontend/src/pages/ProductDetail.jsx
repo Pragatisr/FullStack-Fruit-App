@@ -23,7 +23,7 @@ const ProductDetail = () => {
     }
     try {
       const token = localStorage.getItem('token')
-      const response = await axios.post('http://localhost:3001/cart/add', payload, {
+      const response = await axios.post('https://fruit-app-ii92.onrender.com/cart/add', payload, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

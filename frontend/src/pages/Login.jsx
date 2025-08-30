@@ -13,7 +13,7 @@ const Login = () => {
 
     try {
 
-      const response = await axios.post('http://localhost:3001/login', userDetails)
+      const response = await axios.post('https://fruit-app-ii92.onrender.com/login', userDetails)
       if (response?.status === 200) {
         toast.success(response?.data?.message)
         const token = response?.data?.token
